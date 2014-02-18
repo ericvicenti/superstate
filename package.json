@@ -1,7 +1,7 @@
 {
   "name": "superstate",
   "description": "A cookie storage interface for the browser & nodejs",
-  "version": "0.0.0-dependency-fix.1",
+  "version": "0.0.1",
   "main": "superstate.js",
   "keywords": [
     "browser",
