@@ -1,7 +1,7 @@
 {
   "name": "superstate",
   "description": "A cookie storage interface for the browser & nodejs",
-  "version": "0.0.1-docs.1",
+  "version": "0.0.1-docs.2",
   "main": "superstate.js",
   "keywords": [
     "browser",
@@ -9,6 +9,10 @@
     "cookie",
     "session"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericvicenti/superstate.git"
+  },
   "maintainers": [
     {
       "name": "Eric Vicenti",
