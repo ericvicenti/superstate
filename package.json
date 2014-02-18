@@ -1,7 +1,7 @@
 {
   "name": "superstate",
   "description": "A cookie storage interface for the browser & nodejs",
-  "version": "0.0.0-dependency-fix.0",
+  "version": "0.0.0-dependency-fix.1",
   "main": "superstate.js",
   "keywords": [
     "browser",
@@ -18,6 +18,7 @@
   "private": false,
   "license": "Apache 2.0",
   "dependencies": {
-    "underscore": "~1.5.2"
+    "underscore": "~1.5.2",
+    "cookie-cutter": "~0.1.1"
   }
 }
