@@ -1,0 +1,23 @@
+{
+  "name": "superstate",
+  "description": "A cookie storage interface for the browser & nodejs",
+  "version": "0.0.0",
+  "main": "superstate.js",
+  "keywords": [
+    "browser",
+    "express",
+    "cookie",
+    "session"
+  ],
+  "maintainers": [
+    {
+      "name": "Eric Vicenti",
+      "email": "eric@vicenti.net"
+    }
+  ],
+  "private": false,
+  "license": "Apache 2.0",
+  "dependencies": {
+    "underscore": "~1.5.2"
+  }
+}
