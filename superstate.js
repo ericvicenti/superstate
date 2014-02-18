@@ -37,7 +37,7 @@ superstate.browser = function(document, stateName) {
 
   var browserCookie = CookieCutter(document);
 
-  var currentCookie = browserCookie.get(setState);
+  var currentCookie = browserCookie.get(stateName);
 
   var state = currentCookie ? deserialize(currentCookie) : {};
 
