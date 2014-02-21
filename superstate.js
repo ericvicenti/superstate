@@ -6,7 +6,7 @@ var superstate = module.exports = {};
 function serialize(data) {
   var string = JSON.stringify(data);
   var buffer = new Buffer(string);
-  var base64 = b.toString('base64');
+  var base64 = buffer.toString('base64');
   return base64;
 }
 
