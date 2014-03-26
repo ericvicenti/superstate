@@ -44,7 +44,10 @@ superstate.browser = function(document, stateName) {
   this.setState = function setState(data) {
     state = data;
     currentCookie = serialize(data);
-    browserCookie.set(stateName, currentCookie);
+    var cookieOpts = {
+      path: '/'
+    };
+    browserCookie.set(stateName, currentCookie, cookieOpts);
   }
 
   this.getState = function getState() {
