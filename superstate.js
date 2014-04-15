@@ -1,5 +1,4 @@
 var _ = require('underscore');
-var BrowserCookies = require('cookies-js');
 
 var superstate = module.exports = {};
 
@@ -33,6 +32,10 @@ var commonMethods = {
 
 superstate.browser = function(document, stateName) {
 
+  var BrowserCookies = require('cookies-js');
+
+  stateName = stateName || 'SuperState';
+
   var superstate = this;
 
   var currentCookie = BrowserCookies.get(stateName);
@@ -57,6 +60,8 @@ superstate.browser = function(document, stateName) {
 }
 
 superstate.express = function(req, res, stateName) {
+
+  stateName = stateName || 'SuperState';
 
   var superstate = this;
 
