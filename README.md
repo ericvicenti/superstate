@@ -26,9 +26,13 @@ state.get('name'); // -> "My Name"
 Be sure to configure express for cookies:
 
 ```
+// express pre-v4
 app.configure(function() {
   app.use(express.cookieParser());
 });
+// express v4
+var cookieParser = require('cookie-parser');
+app.use(cookieParser());
 ```
 
 Create a superstate with a request/response combo:
